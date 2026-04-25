@@ -298,7 +298,7 @@ table {
     margin-bottom: 10px;
     align-items: center;
 }
-.table th{
+table th{
     background-color: #003620;
     color: white;
     padding: 10px;
@@ -332,5 +332,9 @@ table {
     margin-top: 20px;
     text-align: left;
     width: 100%;
+}
+.featurethings {
+    padding: 30px 80px;
+    text-align: center;
 }
 
