@@ -308,4 +308,29 @@ table {
     border: 1px solid #ddd;
     padding: 8px;
 }
+.featurefood {
+    padding: 30px 80px;
+    text-align: center;
+}
+.featurefood h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.featurefood .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.cardsDishes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+.music {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+}
 
