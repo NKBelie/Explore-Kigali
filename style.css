@@ -6,7 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: url(background.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -257,3 +256,56 @@ footer {
     margin-top: 10px;
     list-style: none;
 }
+.herodest {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    height: 50vh;
+}
+.herodest .hero-text
+h1{
+    color: rgb(0, 0, 0);
+    align-content: center;
+}
+.featuredest {
+    padding: 0px 80px;
+    text-align: center;
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    position: static;
+}
+.featuredest .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 25px;
+}
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table {
+    padding: 60px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+.table h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.table th{
+    background-color: #003620;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
