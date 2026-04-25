@@ -1,0 +1,259 @@
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(background.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003620;
+    padding: 20px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-links li a:hover {
+    color: #00c853;
+}
+
+.nav-links button {
+    background: #005a26;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    background: #009624;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    height: 80vh;
+}
+.hero-text {
+    max-width: 600px;
+    color: white;
+}
+.hero-text h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.hero-text button {
+    background: #026a2d;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+.hero-text button:hover {
+    background: #009624;
+}
+.feature {
+    padding: 70px 80px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card p {
+    padding: 0 15px 20px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 70px 80px;
+}
+
+.visit,
+.video,
+.form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.visit ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.visit ul li {
+    margin-bottom: 10px;
+}
+
+.video video {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+.form textarea {
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    background: #00c853;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #009624;
+}
+
+footer {
+    background: #003605;
+    color: white;
+    padding: 50px 80px 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer a:hover {
+    color: #00c853;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #555;
+    padding-top: 15px;
+}
+
+@media(max-width: 992px) {
+    .cards,
+    .info-section,
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .cards,
+    .info,
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h2 {
+        font-size: 40px;
+    }
+}
+.social ul {
+    gap: 15px;
+    margin-top: 10px;
+    list-style: none;
+}
+.links ul {
+    gap: 15px;
+    margin-top: 10px;
+    list-style: none;
+}
