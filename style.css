@@ -334,7 +334,45 @@ table th{
     width: 100%;
 }
 .featurethings {
-    padding: 30px 80px;
+    padding: 30px 70px;
     text-align: center;
+}
+.featurethings h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.featurethings  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.featurethings .table {
+    padding: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.featurethings .table h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.featurethings li {
+    font-weight: bold;
+}
+.featurethings li,p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.featurethings .visit {
+    padding: 20px 0px 10px 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
