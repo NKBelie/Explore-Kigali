@@ -130,7 +130,7 @@ It also shows the ability to create a real-world tourism website prototype.
 
 ## Student Information
 
-**Student Name:** Belie NDAYISABA KAMARIZA
-**Course:** Advanced Frontend / HTML & CSS Assignment
-**Program:** SheCanCODE Progrma
+**Student Name:** Belie NDAYISABA KAMARIZA </br>
+**Course:** Advanced Frontend / HTML & CSS Assignment </br>
+**Program:** SheCanCODE Program </br>
 **Institution:** Igire Rwanda Organization (IRO)
