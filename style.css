@@ -375,4 +375,17 @@ table th{
     margin-top: 20px;
     border-radius: 10px;
 }
+.contact {
+    padding: 30px 70px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.map iframe {
+    padding: 0px 70px;
+    text-align: center;
+
+}
+
 
