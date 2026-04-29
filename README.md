@@ -6,131 +6,117 @@ Explore Kigali – Tourism and Travel Guide Website
 
 ## Project Description
 
-Explore Kigali is a multi-page tourism and travel guide website created using HTML and CSS. The main purpose of this project is to provide visitors and local residents with useful information about places to visit, fun activities to do, and the best places to eat and drink around Kigali, Rwanda.
+Explore Kigali is a responsive multi-page tourism website built with HTML and CSS. It is designed to give visitors and local residents useful information about Kigali's top destinations, activities, dining options, and contact resources.
 
-The website is designed with a clean and attractive user interface to improve user experience and make navigation simple. It highlights Kigali’s beauty, culture, adventure, and food experience through images, videos, forms, and organized content.
+The website uses a clean layout, consistent styling, and organized sections to present Kigali's culture, adventure, dining, and travel planning information.
 
-This project was developed as part of an HTML and CSS assignment to demonstrate practical understanding of web structure, styling, and version control using GitHub.
+This project was developed as part of an HTML and CSS assignment to demonstrate practical web development skills.
+
+## Project Files
+
+- `index.html`
+- `destinations.html`
+- `things.html`
+- `food.html`
+- `contact.html`
+- `style.css`
+- `destinations.css`
+- `things.css`
+- `food.css`
+- `contact.css`
+- `image/` (site images, video, audio)
 
 ## HTML Pages Included
 
-The project contains the following pages:
-
 ### 1. Home Page (`index.html`)
 
-This is the main landing page of the website.
-It contains:
+The main landing page includes:
 
-- Navigation bar
-- Hero section
-- Featured destination cards
-- Video section
-- Contact/Trip planning form
-- Footer section
+- Navigation bar with links to all site pages
+- Hero section with welcome text and action buttons
+- Featured experience cards
+- Reasons to visit Kigali list
+- Embedded promo video
+- Trip planning contact form
+- Footer with quick links and social placeholders
 
 ### 2. Destinations Page (`destinations.html`)
 
-This page provides information about famous tourist attractions in Kigali.
+This page highlights popular Kigali attractions and travel spots.
 
-Examples include:
+It includes:
 
-- Kigali Convention Centre
-- Kigali Genocide Memorial
-- Nyandungu Eco Park
-
-This page includes images and tables for detailed information.
+- Destination cards with images and descriptions
+- A destination information table with locations, distances, best visiting times, and highlights
 
 ### 3. Things To Do Page (`things.html`)
 
-This page highlights activities and adventures available in Kigali.
-
-Examples include:
-
-- Hiking
-- City tours
-- Shopping
-- Nature walks
+This page lists activities and adventure ideas in Kigali.
 
 It includes:
 
-- Ordered list
-- Unordered list
-- Video content
+- Ordered list of top activities
+- Activity descriptions
+- Schedule table with times, duration, and locations
 
-### 4. Food & Drink Page (`food.html`)
+### 4. Eat & Drink Page (`food.html`)
 
-This page showcases restaurants and local foods in Kigali.
+This page showcases dining options and local foods in Kigali.
 
-Examples include:
+It includes:
 
-- Brochettes
-- Isombe
-- Ugali
-- Restaurants and cafés
-
-This page includes food images and tables.
+- Restaurant feature cards
+- Local dish cards
+- Embedded audio player with local music
 
 ### 5. Contact Page (`contact.html`)
 
-This page allows users to contact the website team or plan a trip.
+This page lets visitors reach out and find contact details.
 
 It includes:
 
-- Contact form
-- Contact details
-- Embedded Google Map
+- Contact information section
+- Contact form for messages
+- Embedded Google Map location
 
 ## Features Demonstrated
 
-This project demonstrates the following web development concepts:
-
 ### HTML Concepts
 
-- Proper page structure using semantic HTML tags
-- Use of headings, paragraphs, and sections
-- Internal links for page navigation
-- External links
-- Images and multimedia integration
-- Tables for organized data
-- Ordered and unordered lists
-- Forms and user input elements
-- Embedded elements such as Google Maps
-- Video and audio elements
+- Semantic HTML page structure
+- Headers, sections, and lists
+- Navigation links across pages
+- Images and multimedia embedding
+- Tables for structured content
+- Forms for user input
+- Embedded Google Maps and audio/video elements
 
 ### CSS Concepts
 
-- Styling using external CSS file
-- Navigation hover effects
-- Image styling and alignment
-- Layout structure using Flexbox and Grid
-- Responsive design for mobile devices
-- Buttons, forms, and card styling
-- Consistent design theme across pages
+- External styling with page-specific CSS files
+- Responsive layout and spacing
+- Card and hero section styling
+- Navigation and button styling
+- Form and footer design
 
-### GitHub and Version Control
+### Design and Content
 
-This project also demonstrates proper use of GitHub by:
-
-- Creating a public repository
-- Using multiple meaningful commits
-- Tracking project progress step by step
-- Maintaining organized project files
+- Consistent branding across pages
+- Organized content for tourism guidance
+- Local Kigali imagery and travel recommendations
 
 ## Purpose of the Project
 
-The purpose of this project is to strengthen practical skills in:
+This project is intended to practice and demonstrate:
 
-- HTML page creation
-- CSS styling and layouts
-- Responsive design
-- Website organization
-- Version control discipline
-
-It also shows the ability to create a real-world tourism website prototype.
+- HTML page layout and structure
+- CSS styling for multi-page websites
+- Responsive website design
+- Content organization for a travel guide
 
 ## Student Information
 
-**Student Name:** Belie NDAYISABA KAMARIZA </br>
-**Course:** Advanced Frontend / HTML & CSS Assignment </br>
-**Program:** SheCanCODE Program </br>
+**Student Name:** Belie NDAYISABA KAMARIZA</br>
+**Course:** Advanced Frontend / HTML & CSS Assignment</br>
+**Program:** SheCanCODE Program</br>
 **Institution:** Igire Rwanda Organization (IRO)
