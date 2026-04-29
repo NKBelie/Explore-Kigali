@@ -267,6 +267,9 @@ footer {
         gap: 10px;
     }
 
+    .hero{
+        margin-top: 50px;
+    }
     .hero,
     .contact,
     .map,
@@ -294,9 +297,11 @@ footer {
         font-size: 16px;
     }
 
-    .contact,
+    .contact{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
     .footer {
-       grid-template-columns: repeat(3, minmax(0,1fr));
+        grid-template-columns: repeat(3, minmax(0,1fr));
     }
 
     .map-frame {
@@ -306,24 +311,25 @@ footer {
 
 @media (max-width: 480px) {
     .navbar {
-        padding: 0px 20px;
-        align-items: center;
+        padding: 16px 20px;
     }
 
     .nav-links {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
     }
 
     .nav-links li,
     .nav-links button {
         width: 100%;
     }
-
+    .hero{
+        margin-top: 50px;
+    }
     .nav-links li a,
     .nav-links button {
         display: block;
-        width: 50%;
+        width: 100%;
     }
 
     .hero,
@@ -361,7 +367,6 @@ footer {
 @media (max-width: 320px) {
     .navbar {
         padding: 14px 16px;
-        justify-content: space-around;
     }
 
     .hero,
@@ -380,6 +385,9 @@ footer {
         font-size: 20px;
     }
 
+    .hero{
+        margin-top: 30px;
+    }
     .hero-text h1 {
         font-size: 24px;
     }

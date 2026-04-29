@@ -101,10 +101,8 @@ header {
 }
 
 .feature {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 25px;
-    padding: 40px 70px 60px;
+    padding: 40px 80px 60px;
+    text-align: center;
 }
 
 .feature h2 {
@@ -211,7 +209,7 @@ footer {
     .hero-text h1 {
         font-size: 44px;
     }
-     .cards {
+    .cards {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
@@ -249,9 +247,12 @@ footer {
     }
 
     .nav-links {
-        width: 100%;
-        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
         gap: 12px;
+    }
+     .hero{
+        margin-top: 50px;
     }
 
     .hero,
@@ -303,6 +304,9 @@ footer {
     .nav-links button {
         display: block;
         width: 100%;
+    }
+    .hero{
+        margin-top: 50px;
     }
 
     .hero,
